@@ -1,0 +1,62 @@
+.root {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+
+    position: relative;
+
+    max-width: 200px;
+    max-height: 100px;
+    margin-right: 10px;
+    
+    border: solid 3px #4CC9C9;
+    border-radius: 12px;
+    padding: 6px;
+    padding-top: 12px;
+    overflow: hidden;
+
+}
+
+.player {
+    display: inline-block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    background: #eee;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-bottom: 4px;
+}
+
+.activePlayer {
+    composes: player;
+    background: #6C7AC9;
+}
+
+.title {
+    font-size: 15px;
+    white-space: normal;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #eee;
+    padding-bottom: 5px;
+}
+
+.remove {
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: red;
+    color: white;
+    top: 0;
+    right: 0;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.toRemove {
+    composes: root;
+    opacity: 0.3;
+}

@@ -1,0 +1,47 @@
+{
+  "name": "nastat",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --no-info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zefirka/nastat.git"
+  },
+  "author": "Trdat Mkrtchyan",
+  "dependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "css-loader": "0.23.1",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "json5": "^0.4.0",
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "mongoose": "^4.7.3",
+    "postcss-loader": "^0.9.1",
+    "react": "15.0.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "15.0.2",
+    "react-json-inspector": "7.0.0",
+    "react-redux": "4.4.5",
+    "react-router": "^3.0.0",
+    "redux": "3.5.2",
+    "redux-thunk": "^0.1.0",
+    "strip-ansi": "^3.0.0",
+    "style-loader": "0.13.1",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}

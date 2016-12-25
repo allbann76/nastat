@@ -1,0 +1,199 @@
+.Table__root___339Kf {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+
+    position: relative;
+
+    max-width: 200px;
+    max-height: 100px;
+    margin-right: 10px;
+    
+    border: solid 3px #4CC9C9;
+    border-radius: 12px;
+    padding: 6px;
+    padding-top: 12px;
+    overflow: hidden;
+
+}
+
+.Table__player___128mN {
+    display: inline-block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    background: #eee;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-bottom: 4px;
+}
+
+.Table__activePlayer___21zHD {
+    background: #6C7AC9;
+}
+
+.Table__title___2DbYP {
+    font-size: 15px;
+    white-space: normal;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #eee;
+    padding-bottom: 5px;
+}
+
+.Table__remove___1Dl4d {
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: red;
+    color: white;
+    top: 0;
+    right: 0;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Table__toRemove___1sl5l {
+    opacity: 0.3;
+}.Header__header___2XmY9 {
+	width: 100%;
+	margin: 10px 0;
+}.List__container___3WizT
+{
+    width: 100%;
+}
+
+.List__label___2uKiL
+{
+    position: relative;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 6px;
+
+    border: solid 1px #94dc1c;
+    border-bottom-color: #72ab14;
+}
+
+.List__label___2uKiL:after
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0px;
+
+    display: block;
+
+    width: 30px;
+    height: 36px;
+    padding: 8px 6px;
+
+    border-left: solid 5px rgba(93, 156, 64, 0.52);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    content: '';
+
+    background-color: white;
+}
+
+.List__labelFalse___Z8w1S
+{
+    border-color: #dc1c1c;
+    border-bottom-color: #ab1414;
+    background-color: rgba(123, 2, 0, .75);
+}
+
+.List__labelFalse___Z8w1S:after {
+    border-left: solid 5px rgba(156, 64, 64, 0.52)
+}
+
+.List__labelSelect___1Q_3s {
+}
+
+.List__labelSelect___1Q_3s .List__text___14wB2 {
+    color: #333;
+}
+
+.List__labelSelect___1Q_3s:after {
+    width: 120px;
+}
+
+.List__labelTrue___17H0y
+{
+    background-color: rgba(39, 123, 0, .75);
+}
+
+
+
+.List__control___19mwI
+{
+    position: relative;
+    z-index: 10;
+
+    float: right;
+
+    margin-left: 10px;
+}
+
+.List__text___14wB2
+{
+    font-size: 1em;
+
+    width: 70%;
+
+    color: white;
+}
+.App__root___FVOkF {
+    width: 95%;
+    padding: 15px;
+    border: solid 2px black;
+
+    font-family: Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+
+.App__tablesContainer___4Ukrg {
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding-bottom: 12px;
+}
+
+.App__input___3OHAJ {
+    background: none;
+    border: solid 1px black;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 5px 2px;
+}
+
+.App__panel___3aKRA {
+    margin-top: 10px;
+}
+
+.App__controls___2Xtxp {
+    display: inline-block;
+}
+
+.App__button___2QRUL {
+    background: #8BB8C9;
+    padding: 5px 10px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.App__buttonOk___W57fB{
+    background: #69C982;
+}
+
+.App__buttonCancle___3Sra_{
+    background: #C93340;
+}
+
+.App__error___hbPpK {
+    font-size: 12px;
+    color: red;
+}
